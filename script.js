@@ -4,7 +4,7 @@ const menuData = [
         items: [
             { nombre: "Provoleta Clásica", precio: 9500, desc: "Queso fundido tradicional", sub: "PROVOLETAS", img: "https://images.pexels.com/photos/5639534/pexels-photo-5639534.jpeg?auto=compress&cs=tinysrgb&w=500" },
             { nombre: "Provoleta Prosciutto", precio: 11500, desc: "Rúcula, parmesano y jamón crudo.", sub: "PROVOLETAS", img: "https://images.pexels.com/photos/17593640/pexels-photo-17593640/free-photo-of-comida-plato-restaurante-cena.jpeg?auto=compress&cs=tinysrgb&w=500" },
-            { nombre: "Chorizo", precio: 5000, desc: "Chorizo de cerdo premium", sub: "ACHURAS", img: "https://images.pexels.com/photos/12313626/pexels-photo-12313626.jpeg?auto=compress&cs=tinysrgb&w=500" }
+            { nombre: "Chorizo", precio: 5000, desc: "Chorizo de cerdo premium", sub: "ACHURAS", img: "https://images.pexels.com/photos/8522204/pexels-photo-8522204.jpeg?auto=compress&cs=tinysrgb&w=500" }
         ]
     },
     {
@@ -17,7 +17,7 @@ const menuData = [
     {
         categoria: "🥪 SANDWICHERÍA",
         items: [
-            { nombre: "Choripán con papas", precio: 5000, desc: "Clásico argentino", sub: "SANDWICHS", img: "https://images.pexels.com/photos/12330836/pexels-photo-12330836.jpeg?auto=compress&cs=tinysrgb&w=500" },
+            { nombre: "Choripán con papas", precio: 5000, desc: "Clásico argentino", sub: "SANDWICHS", img:"https://images.pexels.com/photos/12330836/pexels-photo-12330836.jpeg?auto=compress&cs=tinysrgb&w=500" },
             { nombre: "Chivito Canadiense", precio: 15000, desc: "Lomo, huevo, jamón, queso y papas.", sub: "CHIVITOS", img: "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=500" }
         ]
     }
