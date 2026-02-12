@@ -8,17 +8,32 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
 
-body { background-color: #f4f4f4; color: var(--text-dark); padding-bottom: 100px; }
-
-.header {
-    background-color: var(--bg-dark);
-    padding: 20px;
-    text-align: center;
-    color: white;
+/* El fondo general de la página será blanco */
+body { 
+    background-color: #ffffff; 
+    color: var(--text-dark); 
+    padding-bottom: 50px; 
 }
 
-.logo { width: 100px; height: 100px; border-radius: 50%; border: 2px solid var(--primary-color); object-fit: cover; }
+/* AQUÍ EL CAMBIO: El degradado gris y negro SOLO en el encabezado */
+.header {
+    background: linear-gradient(135deg, #2b2b2b 0%, #000000 100%);
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+    border-bottom: 4px solid var(--primary-color);
+}
 
+.logo { 
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    border: 2px solid var(--primary-color); 
+    object-fit: cover; 
+    margin-bottom: 10px;
+}
+
+/* La barra de navegación se mantiene blanca para que resalte */
 .categories-nav {
     display: flex;
     overflow-x: auto;
@@ -28,17 +43,17 @@ body { background-color: #f4f4f4; color: var(--text-dark); padding-bottom: 100px
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     scrollbar-width: none;
 }
 .categories-nav::-webkit-scrollbar { display: none; }
 
 .category-btn {
     white-space: nowrap;
-    padding: 8px 15px;
+    padding: 10px 18px;
     border: none;
     background: #f0f0f0;
-    border-radius: 20px;
+    border-radius: 25px;
     font-weight: bold;
     cursor: pointer;
     color: #555;
@@ -47,18 +62,23 @@ body { background-color: #f4f4f4; color: var(--text-dark); padding-bottom: 100px
 
 .category-btn.active { background: var(--primary-color); color: white; }
 
-.container { padding: 15px; }
+/* El contenedor de las comidas queda con fondo blanco */
+.container { 
+    padding: 20px 15px; 
+    background-color: #ffffff;
+}
 
-/* Estilo para los subconjuntos (Achuras, Parrilladas, etc) */
 .sub-category-title {
     grid-column: 1 / -1;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 800;
-    color: var(--bg-dark);
-    padding: 20px 0 10px 0;
-    border-bottom: 2px solid var(--primary-color);
-    margin-bottom: 15px;
+    color: var(--bg-dark); /* Texto oscuro para fondo blanco */
+    padding: 15px 5px 5px 5px;
+    margin-top: 20px;
+    border-bottom: 3px solid var(--primary-color);
     text-transform: uppercase;
+    width: 100%;
+    text-align: left;
 }
 
 .menu-grid {
@@ -71,45 +91,10 @@ body { background-color: #f4f4f4; color: var(--text-dark); padding-bottom: 100px
     background: var(--card-bg);
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Sombra suave para fondo blanco */
+    border: 1px solid #eee;
 }
 
 .card img { width: 100%; height: 180px; object-fit: cover; }
-
 .card-content { padding: 15px; }
 .card-price { color: var(--primary-color); font-weight: bold; font-size: 1.3rem; margin-top: 5px; }
-
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 15px;
-    background: white;
-    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
-}
-
-.btn-checkout {
-    background: var(--bg-dark);
-    color: white;
-    width: 100%;
-    padding: 15px;
-    border-radius: 12px;
-    border: none;
-    font-size: 1.1rem;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-/* PEGA ESTO AQUÍ ABAJO */
-.sub-category-title {
-    grid-column: 1 / -1; /* Esto hace que el título ocupe todo el ancho */
-    font-size: 1.2rem;
-    font-weight: 800;
-    color: var(--bg-dark);
-    padding: 15px 5px 5px 5px;
-    margin-top: 20px;
-    border-bottom: 3px solid var(--primary-color);
-    text-transform: uppercase;
-    width: 100%;
-    text-align: left;
-}
