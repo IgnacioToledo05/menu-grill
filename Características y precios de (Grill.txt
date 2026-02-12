@@ -1,0 +1,94 @@
+Características y precios de (Grill fuego y sabor : Banfield)
+
+- (Botón del conjunto) "🥗 ENTRADAS Y EMPANADAS"
+
+   (Botón del sub conjunto: "EMPANADAS")
+-(Imagen) Provoleta Clásica $ 9500
+-(Imagen) Provoleta Prosciutto
+Rúcula, parmesano y jamón crudo. $ 11500
+ (Botón del sub conjunto: "ACHURAS")
+-(Imagen) Chorizo $ 5000
+-(Imagen) Morcilla $ 5000
+
+
+
+- (Botón del conjunto) "🔥 NUESTRA PARRILLA"
+	(Botón del sub conjunto: "PARRILLADAS")
+-(Imagen) Clásica para 2
+Chorizo, morcilla, chinchulines, cerdo, asado banderita y pollo. $ 45000
+-(Imagen) Alvear para 2
+Chorizo, morcilla, chinchulines, cerdo, asado banderita, pollo y vacio. $ 56000
+
+
+-(Botón del conjunto) "🥪 SANDWICHERÍA Y CHIVITOS"
+	(Botón del sub conjunto: "SANDWICHS")
+-(Imagen) Choripán con papas fritas. $ 5000
+-(Imagen) Morcipan con papas fritas. $ 5000
+	(Botón del sub conjunto: "CHIVITO URUGUAYO")
+-(Imagen) Clásico con papas fritas
+Lomo, huevo frito, jamón y queso, lechuga y tomate. $ 14000
+-(Imagen) Canadiense con papas fritas
+Lomo, huevo frito, jamón y queso, panceta, morrones, lechuga y tomate. $ 15000
+
+-(Botón del conjunto: "🍝 COCINA Y PASTAS")
+	(Botón del sub conjunto: "MINUTAS")
+-(Imagen) Milanesa ternera con papas. $ 30000
+-(Imagen) Milanesa napolitana
+Salsa de tomate, muzzarella, jamón, tomate y guarnición de papas fritas. $ 32000
+	(Botón del sub conjunto: "COMIDAS DE OLLA")
+-(Imagen) Risotto verde funghi. $ 12500
+-(Imagen) Lentejas. $ 10500
+	(Botón del sub conjunto: "PASTAS")
+-(Imagen) Ñoquis. $ 6000
+-(Imagen) Tallarines. $ 6000
+	(Botón del sub conjunto: "SALSAS")
+-(Imagen) Filete, Blanca, Mixta, Rosetti "Salsa Especial". $ 3500
+-(Imagen) Boloñesa. $ 4200
+
+
+-(Botón del conjunto: "🍃 VEGGIE Y SALUDABLE")
+	(Botón del sub conjunto: "ENSALADAS")
+Ensalada mixta
+-(Imagen) lechuga, tomate y cebolla $ 5000
+-(Imagen) Rúcula y parmesano
+$ 6000
+
+-(Botón del conjunto: "👶 MENÚ INFANTIL")
+-(Imagen) Ñoquis con salsa. $ 12500
+-(Imagen) Tallarines con salsa. $ 12500
+
+
+-(Botón del conjunto: "🍟 ACOMPAÑAMIENTOS")
+	(Botón del sub conjunto: "PAPAS FRITAS")
+-(Imagen) Papas fritas $ 5000
+-(Imagen) Papas al horno $ 6000
+	(Botón del sub conjunto: "PORCIONES EXTRAS")
+-(Imagen) Pure de papas $ 5000
+-(Imagen) Pure de calabaza $ 5000
+
+
+-(Botón del conjunto: "🍰 POSTRES Y HELADOS")
+-(Imagen) Flan $ 4500
+-(Imagen) Flan Mixto $ 5000
+	(Botón del sub conjunto: "HELADOS")
+-(Imagen) Americana. $ 2500
+-(Imagen) Dulce de Leche. $ 2500
+	(Botón del sub conjunto: "COPA HELADAS")
+-(Imagen) Copa fuego
+Whisky, helado americana, crema, nueces y Charlot. $ 7500
+-(Imagen) Copa sabor
+Durazno, Dulce de leche, crema y 2 bochas de helado. $ 7500
+	(Botón del sub conjunto: "POSTRES CLASICOS")
+-(Imagen) Flan. $ 4500
+-(Imagen) Flan Mixto. $ 5000
+
+
+-(Botón del conjunto: "🥤 BEBIDAS")
+	(Botón del sub conjunto: "GASEOSAS")
+-(Imagen) Agua sin gas 500ml. $ 2500
+-(Imagen) Agua con gas 500ml. $ 2500
+-(Imagen) Gaseosa 500cc. $ 3500
+	(Botón del sub conjunto: "CERVEZAS")
+-(Imagen) Heineken. $ 9000
+-(Imagen) Amstel 1lts. $ 7200
+

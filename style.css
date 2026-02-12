@@ -1,0 +1,84 @@
+:root {
+    --primary-color: #ff4d00;
+    --bg-dark: #0a0a0a;
+    --text-light: #ffffff;
+    --card-bg: #ffffff;
+    --text-dark: #333;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+
+body { background-color: #f4f4f4; color: var(--text-dark); padding-bottom: 80px; }
+
+.header {
+    background-color: var(--bg-dark);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.logo { width: 120px; border-radius: 50%; border: 2px solid var(--primary-color); }
+
+/* Navegación de categorías horizontal */
+.categories-nav {
+    display: flex;
+    overflow-x: auto;
+    background: white;
+    padding: 15px;
+    gap: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.category-btn {
+    white-space: nowrap;
+    padding: 8px 15px;
+    border: none;
+    background: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #666;
+}
+
+.category-btn.active { color: var(--primary-color); border-bottom: 2px solid var(--primary-color); }
+
+/* Grilla de Menú */
+.container { padding: 20px; }
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: var(--card-bg);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img { width: 100%; height: 180px; object-fit: cover; }
+
+.card-content { padding: 15px; }
+.card-price { color: var(--primary-color); font-weight: bold; font-size: 1.2rem; }
+
+/* Botón flotante inferior */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    background: white;
+    text-align: center;
+}
+
+.btn-checkout {
+    background: var(--bg-dark);
+    color: white;
+    padding: 12px 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+}
